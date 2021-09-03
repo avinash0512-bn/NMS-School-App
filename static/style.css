@@ -1,0 +1,279 @@
+.AllClubs{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: blue;
+    height: 100vh;
+    gap: 10px;
+    color:gold;
+}
+.AllClubs div{
+    border:outset blue;
+    color: gold;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+}
+.AllClubs img{
+    width: 50%;
+    height: 300px;
+    float:left;
+}
+.btn-gradient {
+
+    width: 200px;
+
+    height: 40px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    color: #fff;
+
+    animation: c 53s linear infinite;
+
+    background: linear-gradient(
+
+    121.19deg,
+
+    rgba(133, 239, 49, 0) 25.73%,
+
+    hsla(0, 0%, 100%, 0.3) 45.27%,
+
+    rgba(133, 239, 49, 0) 62.27% ), orange;
+
+    transition: background-color 0.5s ease;
+
+    }
+
+    .btn-gradient:hover {
+
+    animation: c 53s linear infinite;
+
+    background: linear-gradient(
+
+    121.19deg,
+
+    rgba(133, 239, 49, 0) 25.73%,
+
+    hsla(0, 0%, 100%, 0.3) 45.27%,
+
+    rgba(133, 239, 49, 0) 62.27% ), blue;
+
+    }
+
+    @keyframes c {
+
+    0% {
+
+    background-position: -5000px 0;
+
+    }
+
+    to {
+
+    background-position: 5000px 0;
+
+    }
+    
+
+}
+nav{
+    background-color: rgb(23, 20, 220);
+    margin-bottom: 10px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+nav ul li{
+    padding: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.AllClubs p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align:justify ;
+    padding-right: 10px;
+}
+body{
+    background-color: black;
+}
+
+
+
+
+
+
+.btn-underline {
+
+    padding: 10px 25px;
+    
+    font-family: "Roboto", sans-serif;
+    
+    font-weight: 500;
+    
+    background: transparent;
+    
+    outline: none !important;
+    
+    cursor: pointer;
+    
+    transition: all 0.3s ease;
+    
+    position: relative;
+    
+    display: inline-block;
+    
+    color: #fff;
+    
+    }
+    
+    .btn-underline {
+    
+    width: 130px;
+    
+    height: 40px;
+    
+    line-height: 42px;
+    
+    padding: 0;
+    
+    border: none;
+    
+    }
+    
+    .btn-underline span {
+    
+    position: relative;
+    
+    display: block;
+    
+    width: 100%;
+    
+    height: 100%;
+    
+    }
+    
+    .btn-underline:before,
+    
+    .btn-underline:after {
+    
+    position: absolute;
+    
+    content: "";
+    
+    height: 0%;
+    
+    width: 2px;
+    
+    background: #fff;
+    
+    }
+    
+    .btn-underline:before {
+    
+    right: 0;
+    
+    top: 0;
+    
+    transition: all 0.1s ease;
+    
+    }
+    
+    .btn-underline:after {
+    
+    left: 0;
+    
+    bottom: 0;
+    
+    transition: all 0.1s 0.2s ease;
+    
+    }
+    
+    .btn-underline:hover:before {
+    
+    transition: all 0.1s 0.2s ease;
+    
+    height: 100%;
+    
+    }
+    
+    .btn-underline:hover:after {
+    
+    transition: all 0.1s ease;
+    
+    height: 100%;
+    
+    }
+    
+    .btn-underline span:before,
+    
+    .btn-underline span:after {
+    
+    position: absolute;
+    
+    content: "";
+    
+    background: #fff;
+    
+    }
+    
+    .btn-underline span:before {
+    
+    left: 0;
+    
+    top: 0;
+    
+    width: 0%;
+    
+    height: 2px;
+    
+    transition: all 0.1s 0.1s ease;
+    
+    }
+    
+    .btn-underline span:after {
+    
+    left: 0;
+    
+    bottom: 0;
+    
+    width: 100%;
+    
+    height: 2px;
+    
+    }
+    
+    .btn-underline span:hover:before {
+    
+    width: 100%;
+    
+    }
+    nav{
+            background-color: rgb(23, 20, 220);
+            margin-bottom: 10px;
+        }
+        nav ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: space-around;
+        }
+        nav ul li{
+            padding: 10px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: sans-serif;
+        }

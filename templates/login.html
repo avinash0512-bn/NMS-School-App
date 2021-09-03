@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page !</title>
+    <style>
+         body{
+            background-color:rgba(255, 0, 0, 0.671);
+            color: whitesmoke;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border: ridge rgb(0, 0, 0) 10px;
+            gap: 10px;
+         }
+        .btn-underline {
+
+padding: 10px 25px;
+
+font-family: "Roboto", sans-serif;
+
+font-weight: 500;
+
+background: transparent;
+
+outline: none !important;
+
+cursor: pointer;
+
+transition: all 0.3s ease;
+
+position: relative;
+
+display: inline-block;
+
+color: #fff;
+
+}
+
+.btn-underline {
+
+width: 130px;
+
+height: 40px;
+
+line-height: 42px;
+
+padding: 0;
+
+border: none;
+
+}
+
+.btn-underline span {
+
+position: relative;
+
+display: block;
+
+width: 100%;
+
+height: 100%;
+
+}
+
+.btn-underline:before,
+
+.btn-underline:after {
+
+position: absolute;
+
+content: "";
+
+height: 0%;
+
+width: 2px;
+
+background: #fff;
+
+}
+
+.btn-underline:before {
+
+right: 0;
+
+top: 0;
+
+transition: all 0.1s ease;
+
+}
+
+.btn-underline:after {
+
+left: 0;
+
+bottom: 0;
+
+transition: all 0.1s 0.2s ease;
+
+}
+
+.btn-underline:hover:before {
+
+transition: all 0.1s 0.2s ease;
+
+height: 100%;
+
+}
+
+.btn-underline:hover:after {
+
+transition: all 0.1s ease;
+
+height: 100%;
+
+}
+
+.btn-underline span:before,
+
+.btn-underline span:after {
+
+position: absolute;
+
+content: "";
+
+background: #fff;
+
+}
+
+.btn-underline span:before {
+
+left: 0;
+
+top: 0;
+
+width: 0%;
+
+height: 2px;
+
+transition: all 0.1s 0.1s ease;
+
+}
+
+.btn-underline span:after {
+
+left: 0;
+
+bottom: 0;
+
+width: 100%;
+
+height: 2px;
+
+}
+
+.btn-underline span:hover:before {
+
+width: 100%;
+
+}
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h1>Login Page</h1>
+            <div class='emailid'>
+                Email id:
+            <input type="email" name="email" id="" required>
+            </div>
+            <div class='password'>
+                Password:
+                <input type="password" name="password" id="" required>
+            <button class="btn-underline" type='submit'><span>Register</span></button>
+            </div>
+        </form>
+    </div>
+    <div class='imgpic'>
+        <img src="../static/login.jpg" alt="Login Now ">
+    </div>
+</body>
+</html>

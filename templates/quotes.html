@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amazing Quotes !</title>
+    </head>
+    <style>
+         body{
+                background-color: black;
+                color: blue;
+            }
+            head,body{
+                border: gold outset;
+            }
+            .quote img{
+                height: 250px;
+                width: 40%;
+            }
+            .quote{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            .wasd img{
+                width: 100%;
+            }
+            .pop{
+                padding-left: 100px;
+                padding-top: 100px;
+                font-family: cursive;
+            }
+            nav{
+        background-color: rgb(23, 20, 220);
+        margin-bottom: 10px;
+    }
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+    }
+    nav ul li{
+        padding: 10px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: sans-serif;
+    }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </head>
+    <body>
+        <div>
+            <nav>
+                <ul>
+                    <li> <a href="index.html"><i class="fas fa-home"></i> Home</a> </li>
+                    <li> <a href="about me.html"><i class="fas fa-chalkboard"></i>About Me</a> </li>
+                    <li> <a href="quotes.html"><i class="fas fa-chalkboard"></i>Quote Of The Day</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="quote">
+            <div class="pop">
+                <h1>Quote Of The Day !</h1>
+                <p>“Reality is wrong. Dreams are for real.” – Tupac Shakur</p>
+            </div>
+            <div class="wasd">
+                <img src="../static/albert big brain.jpg" alt="Nice Quote">
+            </div>
+        </div>
+    </body>
+</html>
